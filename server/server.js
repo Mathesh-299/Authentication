@@ -18,7 +18,7 @@ DB()
         console.log("Failed to connect to DB, server not started");
     })
 
-app.get("/api/", (req, res) => {
+app.get("/", (req, res) => {
     res.send(`<h1>API is working</h1>`)
 })
 
